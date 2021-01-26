@@ -17,7 +17,7 @@ body {
 
 section.top_page {
     background-image: url("../assets/stefan-johnson-unsplash.jpg");
-    opacity:0.80;
+    opacity:0.90;
     background-size: cover; 
     background-position: center center; 
     height: 100vh;
@@ -173,6 +173,7 @@ a.button{
     text-decoration:none;
     font-family:'Open Sans',sans-serif;
     font-weight:300;
+    font-weight: bold;
     color:#FFFFFF;
     text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
     text-align:center;
@@ -186,6 +187,6 @@ border-color: rgba(255,255,255,1);
 /* Menu Anim */ 
 
 .navbar a:hover {
-    color:#898A62;
+    color:#7CA200;
     transition: all 1s;
 }
