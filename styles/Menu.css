@@ -11,11 +11,54 @@
 
 @import url(https://fonts.googleapis.com/css2?family=Kurale&display=swap%27);
 
+* {
+    box-sizing: border-box;
+}
+
+/* ------------------- NavBar ------------------- */
+
+section.top_page {
+    background-position: center center; 
+    height: 0vh;
+} 
+
+.intro {
+    padding-top: 150px;
+}
+
+.navbar {
+    padding-top: 40px;
+    width: 1050px;
+    margin: auto;
+    position: ;
+    
+    
+} 
+
+.vegan {
+    font-family: "Yellow Ginger";
+}
+
+.navbar a {
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+.navbar a:hover {
+    color:#7CA200;
+    transition: ease-in-out all .5s;
+}
+
+
+
 
 /* -------------------- Header ------------------ */
 
 body {
+    box-sizing: border-box;
     margin: 0;
+    padding: 0;
     font-family: "Yellow Ginger";
 }
 
@@ -49,7 +92,8 @@ li h2 {
     font-family: "Kurale";
     font-size: 3rem;
     font-weight: 100;
-    margin-bottom: 6vh;
+    margin-bottom: 6vw;
+    margin-top: -3vw;
 }    
 
 h3 {
@@ -103,117 +147,6 @@ li #titre {
     text-transform: uppercase;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-/* -------------HEADER-------------*/
-
-/*#navigationheader {
-    
-    height: 40.25em;
-    width: 120em;
-    left: 0px;
-    top: 0px;
-    background-image: url(../assets/jade-wulfraat-yXnPoTkkY94-unsplash\(1\).jpg);
-    background-size: cover;
-    display: flex;
-    background-position: center;
-}
-
-.header h1 {
-    
-    width: 380px;
-    height: 278px;
-    left: 780px;
-    top: 190px;
-    color: white;
-    font-size: 144px;
-    font-weight: normal;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-}
-
-
-
-/* --------------MENU-------------*/
-
-/*.row {
-    
-    width: 1920px;
-    height: 3182px;
-    left: 0px;
-    top: 300px;
-}
-
-#menu {
-    margin-top: ;
-}
-
-#menu h1 {
-    padding-top: 50px;
-    display: flex;
-    justify-content:center;
-    color: ;
-   
-}
-
-#menu h3 {
-    display:flex;
-    justify-content: center;
-    color:#898A62 ;
-    
-    
-}
-
-#menu ul, #menu li {
-    border-radius: 0;
-    margin-bottom: 0;
-    list-style-type: none;
-}
-
-#menu ul h2, #menu li h2 {
-    padding-top: 3em;
-    display:flex;
-    justify-content: center;
-    color:#898A62;
-    font-family: "Kurale";
-    font-size: 3rem;
-    font-weight: 100;
-    
-}
-
-#menu ul p, #menu li p {
-    padding-top: 3em;
-    padding-left: 12.5em;
-    padding-right: 12.5em;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    color:#898A62 ;
-    font-family: "Kurale";
-    
-
-}
-
-#menu ul span, #menu li 
-    
-}span {
-    padding-top: 1.875em;
-    padding-bottom: 1.875em;
-    display:flex;
-    justify-content:center;
-    color: #898A62;
 
 /* ----------- Footer ------------*/
 
