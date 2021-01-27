@@ -28,6 +28,10 @@ section.top_page {
     font-family: "Yellow Ginger";
 }
 
+.vegan {
+    font-family: "Yellow Ginger";
+}
+
 .navbar {
     padding-top: 40px;
     width: 1050px;
@@ -71,11 +75,16 @@ table{
 
 }
 
-h2{
-    margin-top: 2vh;
+h2 {
     text-align: center;
-    text-decoration: #7CA200 underline;
-    color:green;
+    font-family: 'Kurale', serif;
+    color: #898A62;
+    margin-top: 50px;
+    font-weight: 100;
+}
+
+h3 {
+    color: white;
 }
 
 
@@ -94,6 +103,14 @@ a:hover {
 li #titre {
     text-transform: uppercase;
 }
+
+
+.border_bottom {
+    border-bottom: 0.15rem solid #7CA200;
+    padding-bottom: 10px;
+    font-family: 'Kurale', serif;
+}
+
 footer {
     background-color: #898A62;
     margin-top: 40px;
