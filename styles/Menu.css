@@ -1,0 +1,248 @@
+
+@font-face {
+    font-family: "Yellow Ginger";
+    src: url(../assets/Yellow\ Ginger.ttf);
+}
+
+@font-face {
+    font-family:"Kurale";
+    src: url(https://fonts.googleapis.com/css2?family=Kurale&display=swap%27);
+}
+
+@import url(https://fonts.googleapis.com/css2?family=Kurale&display=swap%27);
+
+
+/* -------------------- Header ------------------ */
+
+body {
+    margin: 0;
+    font-family: "Yellow Ginger";
+}
+
+.header {
+    height: 50vh;
+    background-image: url(../assets/jade-wulfraat-yXnPoTkkY94-unsplash\(1\).jpg);
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    justify-content: center;
+}
+
+h1 {
+    color: #ffffff;
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10vw;
+    font-size: 7.5vw;
+    
+}
+
+/* --------------------- Body -------------------- */
+
+li h2 {
+    padding-top: 3em;
+    display:flex;
+    justify-content: center;
+    color:#898A62;
+    font-family: "Kurale";
+    font-size: 3rem;
+    font-weight: 100;
+    margin-bottom: 6vh;
+}    
+
+h3 {
+    display:flex;
+    justify-content: center;
+    color:#898A62 ;
+    margin-top: 6vh;
+    
+}
+
+ li p {
+    padding-top: 0em;
+    padding-left: 12.5em;
+    padding-right: 12.5em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color:#898A62 ;
+    font-family: 'Open Sans', sans-serif;
+    opacity: 70%;
+   
+    
+}
+
+.container span {
+    padding-top: 1.5em;
+    padding-bottom: 1.875em;
+    display:flex;
+    justify-content:center;
+    color: #898A62;
+    
+}    
+
+li, a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+li #titre {
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------HEADER-------------*/
+
+/*#navigationheader {
+    
+    height: 40.25em;
+    width: 120em;
+    left: 0px;
+    top: 0px;
+    background-image: url(../assets/jade-wulfraat-yXnPoTkkY94-unsplash\(1\).jpg);
+    background-size: cover;
+    display: flex;
+    background-position: center;
+}
+
+.header h1 {
+    
+    width: 380px;
+    height: 278px;
+    left: 780px;
+    top: 190px;
+    color: white;
+    font-size: 144px;
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
+/* --------------MENU-------------*/
+
+/*.row {
+    
+    width: 1920px;
+    height: 3182px;
+    left: 0px;
+    top: 300px;
+}
+
+#menu {
+    margin-top: ;
+}
+
+#menu h1 {
+    padding-top: 50px;
+    display: flex;
+    justify-content:center;
+    color: ;
+   
+}
+
+#menu h3 {
+    display:flex;
+    justify-content: center;
+    color:#898A62 ;
+    
+    
+}
+
+#menu ul, #menu li {
+    border-radius: 0;
+    margin-bottom: 0;
+    list-style-type: none;
+}
+
+#menu ul h2, #menu li h2 {
+    padding-top: 3em;
+    display:flex;
+    justify-content: center;
+    color:#898A62;
+    font-family: "Kurale";
+    font-size: 3rem;
+    font-weight: 100;
+    
+}
+
+#menu ul p, #menu li p {
+    padding-top: 3em;
+    padding-left: 12.5em;
+    padding-right: 12.5em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color:#898A62 ;
+    font-family: "Kurale";
+    
+
+}
+
+#menu ul span, #menu li 
+    
+}span {
+    padding-top: 1.875em;
+    padding-bottom: 1.875em;
+    display:flex;
+    justify-content:center;
+    color: #898A62;
+
+/* ----------- Footer ------------*/
+
+ footer {
+    background-color: #898A62;
+    margin-top: 40px;
+    padding: 40px;
+}
+
+footer p {
+    color: white;
+    line-height: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+footer ul li a {
+    line-height: 30px;
+}
+
+ol, ul {
+    padding-left: 0rem;
+}
+
+.segment-two ul li {
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+    line-height: 30px;
+}
+
+.titlefoot {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
