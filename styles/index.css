@@ -191,7 +191,14 @@ border-color: rgba(255,255,255,1);
 
 /* Menu Anim */ 
 
+.navbar a {
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.5s;
+}
+
 .navbar a:hover {
     color:#7CA200;
-    transition: all 1s;
+    border-bottom: 1px solid #7CA200;
+    transition: ease-in-out all .5s;
 }
