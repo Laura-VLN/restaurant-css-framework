@@ -23,7 +23,7 @@
 
     * Une page Accueil
     * Une page Restaurant
-    * Une page Menu composé d'un haut de page avec la Navbar. Le menu proposé ( entrée, plat, dessert) et d'un bas de page.
+    * Une page Menu composé d'un haut de page avec la Navbar. Le menu proposé (entrée, plat, dessert) et d'un bas de page.
     * Une page Images
     * Une page contact
 
