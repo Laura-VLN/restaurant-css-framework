@@ -78,7 +78,6 @@ h3 {
 
 h4 {
     padding-top: 20px;
-
 }
 
 .btn.btn-primary.book {
@@ -104,11 +103,23 @@ h4 {
 img {
     margin-top: 30px;
 }
-/* 
-.far.fa-heart {
-    font-size: 90px;
-    color: #898A62;
-} */
+
+.col-sm-4 {
+    margin-top: 20px;
+}
+
+.philo {
+    width: 100%;
+    height: auto;
+}
+
+h4 {
+    color: black;
+    font-weight: 700;
+    font-size: 1.5vw;
+    margin-bottom: 1vw;
+    opacity: 70%;
+}
 
 .row.service_icon {
     margin-top: 80px;
@@ -144,6 +155,7 @@ footer {
 
 p {
     font-family: 'Open Sans', sans-serif;
+    line-height: 32px;
 }
 
 footer p {
