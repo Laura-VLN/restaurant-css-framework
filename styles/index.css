@@ -23,9 +23,8 @@ section.top_page {
     height: 100vh;
 }
 
-.landing_page {
-    display: flex;
-    justify-content: center;
+.jumbotron-fluid h2 {
+    color: #FFFFFF;
 }
 
 li, a {
@@ -60,7 +59,7 @@ li #titre {
     color: white;
     font-size: 12vw;
     text-align: center;
-    margin-top: 260px;
+    margin-top: 220px;
 }
 
 h2 {
@@ -102,6 +101,9 @@ h4 {
     opacity: 70%;
 }
 
+img {
+    margin-top: 30px;
+}
 /* 
 .far.fa-heart {
     font-size: 90px;
@@ -112,6 +114,9 @@ h4 {
     margin-top: 80px;
 }
 
+.justify-content-around {
+    text-align: center;
+}
 
 svg {
     color: #898A62;
