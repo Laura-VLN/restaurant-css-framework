@@ -1,8 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap%27');
 @font-face {
     font-family: "Yellow Ginger";
-    src: url("../assets/Yellow Ginger.ttf");
+    src: url("../assets/Yellow\ Ginger.ttf");
   }
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Kurale&display=swap%27%27');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
 
 section.top_page {
     background-image: url("../assets/farhad-ibrahimzade-30kYZsukwsk-unsplash.jpg");
@@ -43,12 +52,35 @@ section.top_page {
 }
 
 
+
 li, a {
     text-decoration: none;
     list-style: none;
     color: white;
     font-family: 'Open Sans', sans-serif;
     cursor: pointer;
+}
+
+table{
+    vertical-align: center;
+    margin-top: 5vh;
+    align-content: center;
+    border-collapse: separate;
+    border-spacing: 3vh;
+    flex-wrap: wrap;
+
+}
+
+h2{
+    margin-top: 2vh;
+    text-align: center;
+    text-decoration: #7CA200 underline;
+    color:green;
+}
+
+
+.Pagi{
+    margin-top: 5vh;
 }
 
 a {
@@ -87,4 +119,15 @@ ol, ul {
 .segment-two ul li {
     border-bottom: 1px solid rgba(255,255,255,0.3);
     line-height: 30px;
+}
+
+.navbar a {
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+.navbar a:hover {
+    color:#7CA200;
+    transition: ease-in-out all .5s;
 }
