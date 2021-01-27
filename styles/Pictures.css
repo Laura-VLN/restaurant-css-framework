@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap%27');
+@font-face {
+    font-family: "Yellow Ginger";
+    src: url("../assets/Ginger.ttf");
+  }
+
+section.top_page {
+    background-image: url("../assets/farhad-ibrahimzade-30kYZsukwsk-unsplash.jpg");
+    background-size: cover; 
+    background-position: center center; 
+    height: 50vh;
+}
+
+.jumbotron h1 {
+    color: white;
+    margin: 70px 0;
+    font-size: 7.5vw;
+    line-height: 1.5;
+    font-family: "Yellow Ginger";
+}
+
+.navbar {
+    padding-top: 40px;
+    width: 1050px;
+    margin: auto;
+}
+
+
+.intro {
+    padding-top: 150px;
+}
+
+.wrap{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 150px);
+}
+
+
+.sub{
+    text-align: center;
+    text-decoration: green underline;
+}
+
+
+li, a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+li #titre {
+    text-transform: uppercase;
+}
+footer {
+    background-color: #898A62;
+    margin-top: 40px;
+    padding: 40px;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+footer p {
+    color: white;
+    line-height: 30px;
+}
+
+footer ul li a {
+    line-height: 30px;
+}
+
+ol, ul {
+    padding-left: 0rem;
+}
+
+.segment-two ul li {
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+    line-height: 30px;
+}
