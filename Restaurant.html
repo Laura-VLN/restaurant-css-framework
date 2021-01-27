@@ -6,6 +6,7 @@
     <meta name="description" content="Veganisons restaurant page.">
     <title>Restaurant</title>
     <link rel="icon" type="image/png" href="assets/pictures/favicon.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="styles/bootstrap.min.css">
     <link rel="stylesheet" href="styles/restaurant.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
@@ -42,7 +43,7 @@
 
     <div class="container">
         <div class="row firstBloc">
-            <div class="col-md-4 restoImg" title="Picture of our chef in his kitchen."></div>
+            <div class="col-md-4 restoImg" title="Picture of our chef in his kitchen." data-aos="fade-right" data-aos-delay="300" data-aos-offset="300" data-aos-easing="ease-in-sine"></div>
             <div class="col-md-2 restoSpace"></div>
             <div class="col-md-6 restoTxt">
                 <h2 class="hResto">Our restaurant</h2>
@@ -65,7 +66,7 @@
             </div>
             <div class="col-md-2 locationSpace"></div>
             <div class="col-md-5 locationMap">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2486.7907724022148!2d-0.1921994840767394!3d51.44363622318415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760f5856cb526d%3A0xdfa44592030d0c7c!2s326%20Garratt%20Ln%2C%20Earlsfield%2C%20London%20SW18%204EJ%2C%20Royaume-Uni!5e0!3m2!1sfr!2sbe!4v1611671196606!5m2!1sfr!2sbe"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2486.7907724022148!2d-0.1921994840767394!3d51.44363622318415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760f5856cb526d%3A0xdfa44592030d0c7c!2s326%20Garratt%20Ln%2C%20Earlsfield%2C%20London%20SW18%204EJ%2C%20Royaume-Uni!5e0!3m2!1sfr!2sbe!4v1611671196606!5m2!1sfr!2sbe" data-aos="fade-left" data-aos-delay="300" data-aos-offset="300" data-aos-easing="ease-in-sine"></iframe>
             </div>
         </div>
     </div>
@@ -132,5 +133,12 @@
             </div>
         </div>   
     </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
+
 </body>
 </html>
