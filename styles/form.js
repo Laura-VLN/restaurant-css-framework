@@ -7,19 +7,3 @@ $(document).ready(function () {
     })
 })
 
-
-var formValid = document.getElementById('sending_button');
-var name = document.getElementById('name');
-var firstName = document.getElementById('firstName');
-
-formValid.addEventListener('click', validation);
-
-function validation(event){
-
-    if (name.validity.valueMissing){
-        event.preventDefault();
-        missingName.textContent = 'Name is missing';
-        missingName.style.color = 'red';
-    }
-
-}
