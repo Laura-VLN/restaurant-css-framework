@@ -54,6 +54,8 @@ Images provenant de https://unsplash.com/
 
 Font :  Google Font & https://www.1001fonts.com/
 
+icones : https://fontawesome.com/ & https://icons.getbootstrap.com/
+
 ### Délais : 
 
     * Début: le 25 janvier 2021
