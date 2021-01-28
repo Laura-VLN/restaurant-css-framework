@@ -28,6 +28,10 @@ section.top_page {
     font-family: "Yellow Ginger";
 }
 
+.vegan{
+    font-family: "Yellow Ginger";
+}
+
 .navbar {
     padding-top: 40px;
     width: 1050px;
@@ -37,12 +41,6 @@ section.top_page {
 
 .intro {
     padding-top: 150px;
-}
-
-.wrap{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(1, 150px);
 }
 
 
@@ -61,23 +59,22 @@ li, a {
     cursor: pointer;
 }
 
-table{
-    vertical-align: center;
-    margin-top: 5vh;
-    align-content: center;
-    border-collapse: separate;
-    border-spacing: 3vh;
-    flex-wrap: wrap;
-
+.Pictures{
+    border : solid 1px black;
+    margin: 3vh;
 }
 
 h2{
-    margin-top: 2vh;
     text-align: center;
-    text-decoration: #7CA200 underline;
-    color:green;
+    font-family: 'Kurale' serif;
+    color: #898162;
+    margin-top : 50px;
+    font-weight : 100;
 }
 
+h3{
+    color: white;
+}
 
 .Pagi{
     margin-top: 5vh;
@@ -130,4 +127,11 @@ ol, ul {
 .navbar a:hover {
     color:#7CA200;
     transition: ease-in-out all .5s;
+}
+
+.page-link{
+    color: black;
+}
+.page-link:hover{
+    color: black;
 }
