@@ -153,3 +153,195 @@
 
 </body>
 </html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Veganisons menu page.">
+    <title>Veganisons</title>
+    <link rel="icon" type="image/png" href="assets/pictures/favicon.png">
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/Contact.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+</head>
+
+<body>
+  <!-- ======================= NAVBAR ===================== -->
+    <header>
+        <section class="top_page container-fluid">
+            
+                <div class="row navbar-header">
+                 <nav class="navbar ml-auto">
+                 <ul class="navbar">
+                     <li><a class="nav-item vegan" href="index.html">Veganisons</a></li>
+                     <li><a class="nav-item" href="Menu.html">Menu</a></li>
+                     <li><a class="nav-item" href="Restaurant.html">Restaurant</a></li>
+                     <li><a class="nav-item" href="Pictures.html">Pictures</a></li>
+                     <li><a class="nav-item" href="Contact.html">Contact</a></li>
+                 </ul>
+                 </nav>
+                 </div>
+             
+                </section>
+  <!-- ======================= HEADER COVER ===================== -->   
+     
+         <div class="container-fluid header" title= "Image d'illustration pour le menu">
+            
+             <h1>Contact</h1>
+            
+         </div>
+     </header>  
+
+     <!-- ====================== CONTACT============================= -->
+     <form name="myForm" onsubmit="return validateForm()" method="post">
+        <table class="form-style">
+           <tr>
+              <td>
+                 <label>
+                    Votre nom <span class="required">*</span>
+                 </label>
+              </td>
+              <td>
+                 <input type="text" name="name" class="long"/>
+                 <span class="error" id="errorname"></span>
+              </td>
+           </tr>
+           <tr>
+              <td>
+                 <label>
+                    Votre adresse e-mail <span class="required">*</span>
+                 </label>
+              </td>
+              <td>
+                 <input type="email" name="email" class="long"/>
+                 <span class="error" id="erroremail"></span>
+              </td>
+           </tr>
+           <tr>
+              <td>
+                 <label>
+                    Message <span class="required">*</span>
+                 </label>
+              </td>
+              <td>
+                 <textarea name="message" class="long field-textarea"></textarea>
+                 <span class="error" id="errormsg"></span>
+              </td>
+           </tr>
+           <tr>
+              <td></td>
+              <td>
+                 <input type="submit" value="Envoyer">      
+                 <input type="reset" value="Réinitialiser"> 
+              </td>
+           </tr>
+        </table>
+     </form>
+     
+
+     <!-- Footer -->
+
+ <footer class="footer-top">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-6 col-xs-12 segment-one">
+                <h3 class="titlefoot">Made by</h3>
+                <ul>
+                    <li><a href="https://github.com/Laura-VLN" target="_blank">Laura Vilain</a></li>
+                    <li><a href="https://github.com/Michael-Zerghe" target="_blank">Michael Zerghe</a></li>
+                    <li><a href="https://github.com/ShinYami" target="_blank">Loris Conti</a></li>
+                    <li><a href="https://github.com/JER89" target="_blank">Jeremy Mertens</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12 segment-two">
+                <h3 class="titlefoot">Pages</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Restaurant.html">Restaurant</a></li>
+                    <li><a href="Menu.html">Products</a></li>
+                    <li><a href="Pictures.html">Pictures</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12 segment-three">
+                <h3 class="titlefoot">Follow us</h3>
+                <p>You can follow us on differents social networks</p>
+                <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-pinterest"></i></a>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12 segment-four">
+                <h3 class="titlefoot">Our Newsletter</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis reprehenderit voluptatem illo, nostrum temporibus nemo dolor aliquam.</p>
+                <form action="">
+                    <input type="email">
+                    <input type="submit" value="submit">
+                </form>
+            </div>
+        </div>
+    </div> 
+    
+    <script>
+    function validateForm()                                    
+{ 
+    var name = document.forms["myForm"]["name"];               
+    var email = document.forms["myForm"]["email"];    
+    var message = document.forms["myForm"]["message"];   
+   
+    if (name.value == "")                                  
+    { 
+        document.getElementById('errorname').innerHTML="Veuillez entrez un nom valide";  
+        name.focus(); 
+        return false; 
+    }else{
+        document.getElementById('errorname').innerHTML="";  
+    }
+       
+    if (email.value == "")                                   
+    { 
+        document.getElementById('erroremail').innerHTML="Veuillez entrez une adresse mail valide"; 
+        email.focus(); 
+        return false; 
+    }else{
+        document.getElementById('erroremail').innerHTML="";  
+    }
+   
+    if (email.value.indexOf("@", 0) < 0)                 
+    { 
+        document.getElementById('erroremail').innerHTML="Veuillez entrez une adresse mail valide"; 
+        email.focus(); 
+        return false; 
+    } 
+   
+    if (email.value.indexOf(".", 0) < 0)                 
+    { 
+        document.getElementById('erroremail').innerHTML="Veuillez entrez une adresse mail valide"; 
+        email.focus(); 
+        return false; 
+    } 
+   
+    if (message.value == "")                           
+    {
+        document.getElementById('errormsg').innerHTML="Veuillez entrez un message valide"; 
+        message.focus(); 
+        return false; 
+    }else{
+        document.getElementById('errormsg').innerHTML="";  
+    }
+   
+    return true; 
+}
+
+</script>
+</footer> 
+
+</body>
+</html
