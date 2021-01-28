@@ -7,7 +7,7 @@
 
    ### **[Veganisons](https://laura-vln.github.io/restaurant-css-framework/)**
 
-  Projet de groupe ayant pour but la création d'un site web pour un restaurant avec Bootstrap.
+  Projet de groupe ayant pour but la création d'un site web d'un restaurant avec Bootstrap.
 
   Le projet est accessible via ce lien [GitHub page](https://laura-vln.github.io/restaurant-css-framework/)
 
@@ -48,7 +48,7 @@ Une page contact faite par Loris et Jeremy
   * HTML
   * CSS
 
-### Lien Externe :
+### Liens Externes :
 
 Images provenant de https://unsplash.com/
 
