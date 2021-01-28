@@ -24,23 +24,23 @@ _Nous sommes un petit restaurant d'origine francaise actuellement installé à L
 - [**Loris Conti**](https://github.com/ShinYami)
 - [**Michael Zerghe**](https://github.com/Michael-Zerghe)
 
-  ### Le site contient :
+### Le site contient :
 
-  Une page Accueil faite par Loris
+Une page Accueil faite par Loris
 
-  Une page Restaurant faite par Laura
+Une page Restaurant faite par Laura
 
-  Une page Menu faite par Jeremy
+Une page Menu faite par Jeremy
 
-  Une page Images faite par Michael
+Une page Images faite par Michael
   
-  Une page contact faite par Loris et Jeremy
+Une page contact faite par Loris et Jeremy
 
-  ### Les outils :
+### Les outils :
 
-    * Bootstrap 
-    * HTML
-    * CSS
+  * Bootstrap 
+  * HTML
+  * CSS
 
 ### Lien Externe :
 
