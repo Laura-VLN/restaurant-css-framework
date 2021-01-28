@@ -1,28 +1,38 @@
-# restaurant-css-framework
-
-**Projet Bootstrap : Création d'un site pour un restaurant** 
+**Projet Bootstrap : Projet Restaurant** 
    ======================================================
 
-   ## Site Web du restaurant : Veganisons
+![Aperçu du projet](assets/projet.png)
+
+   ## Site Web du restaurant
+
+   ### **[Veganisons](https://laura-vln.github.io/restaurant-css-framework/)**
+
+   ## Site Web du restaurant :
 
   Projet de groupe ayant pour but la création d'un site web pour un restaurant avec Bootstrap.
 
+  Le projet est accessible via ce lien [GitHub page](https://laura-vln.github.io/restaurant-css-framework/)
+
+
+_Nous sommes un petit restaurant d'origine francaise actuellement installé à Londre et proposant des produits végans, frais, provenant de nos petits producteurs locaux. Veganisons est le carrefour culturel et économique du centre de Londres où se cotoit en toute simplicité, modernité, tradition, simplicité et végan_.
+
+
   ### Membres du groupe :
-    * Laura Vilain
-    * Jérémy Mertens
-    * Loris Conti
-    * Michael Zerghe
-
-  Le site doit être responsive, c'est-à-dire qu'il doit être adapté pour Smartphone, tablette, PC et écran large.
-
-  Chaque page est accessible via la barre de navigation.
+- [**Laura Vilain**](https://github.com/Laura-VLN)
+- [**Jérémy Mertens**](https://github.com/JER89)
+- [**Loris Conti**](https://github.com/ShinYami)
+- [**Michael Zerghe**](https://github.com/Michael-Zerghe)
 
   ### Le site contient :
 
   Une page Accueil faite par Loris
+
   Une page Restaurant faite par Laura
+
   Une page Menu faite par Jeremy
+
   Une page Images faite par Michael
+  
   Une page contact faite par Loris et Jeremy
 
   ### Les outils :
@@ -30,7 +40,6 @@
     * Bootstrap 
     * HTML
     * CSS
-
 
 ### Lien Externe :
 
