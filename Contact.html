@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
     <script src="styles/form.js"></script>
 </head>
 <body>
@@ -49,22 +50,23 @@
                             <div>
                             <div class="row">
                                 <div class="col-md-6 form-group">
-                                    <input class="form-control" name="name" placeholder="Name" type="text" required />
+                                    <input class="form-control name required" name="name" placeholder="Name" type="text" maxlength='30' required />
                                 </div>
                                 <div class="col-md-6 form-group">
-                                    <input class="form-control" name="firstname" placeholder="First Name" type="text" required />
+                                    <input class="form-control firstName required" name="firstname" placeholder="First Name" maxlength='30' type="text" required />
                                 </div>
                             </div>
                             </div>
                             <div class="space">
-                            <input class="form-control" name="email" placeholder="Email" type="text" required />
+                            <input class="form-control email required" name="email" placeholder="Email" type="text" maxlength='35' required />
+                            
                             </div>
                             <div class="space">
-                            <textarea class="form-control" name="message" placeholder="Message" rows="5"></textarea>
+                            <textarea class="form-control message required" name="message" placeholder="Message" rows="5"></textarea>
                             </div>
                             <div class="row">
                                 <div class="col-md-12 form-group text-center">
-                                    <button class="btn btn-primary" type="submit">Submit</button>
+                                    <button class="btn btn-primary submit" id='sending_button' type="submit" value="Valider">Submit</button>
                                 </div>
                             </div>
                         </form>

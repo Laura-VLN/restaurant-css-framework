@@ -1,30 +1,25 @@
-document.addEventListener("DOMContentLoaded", function() {
-    fields.firstName = document.getElementById('firstName');
-    fields.name = document.getElementById('name');
-    fields.email = document.getElementById('email');
-    fields.message = document.getElementById('message');
+console.log('it works')
+
+$(document).ready(function () {
+    $('.submit').click(function (event) {
+        event.preventDefault()
+        console.log('Clicked button')
+    })
 })
 
-function isNotEmpty(value) {
-    if (value == null || typeof value == 'undefined' ) return false;
 
-    return (value.lenght > 0);
-}
+var formValid = document.getElementById('sending_button');
+var name = document.getElementById('name');
+var firstName = document.getElementById('firstName');
 
-function isNumber(num) {
-    return (num.lenght > 0) && !isNaN(num);
-}
+formValid.addEventListener('click', validation);
 
+function validation(event){
 
-function fieldValidation(field, validationFunction) {
-    if (field == null) return false;
-
-    let isFieldValid = validationFunction(field.value)
-    if (!isFieldValid) {
-        field.className = 'placeholderRed';
-    } else {
-        field.className = '';
+    if (name.validity.valueMissing){
+        event.preventDefault();
+        missingName.textContent = 'Name is missing';
+        missingName.style.color = 'red';
     }
 
-    return isFieldValid;
 }
