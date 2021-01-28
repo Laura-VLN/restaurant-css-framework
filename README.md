@@ -17,21 +17,25 @@
 
   Chaque page est accessible via la barre de navigation.
 
-  Nos pages : Accueil, Restaurant, Menu, Images et Contact.
+  ### Le site contient :
 
-  Contenu : 
-
-    * Une page Accueil
-    * Une page Restaurant
-    * Une page Menu composé d'un haut de page avec la Navbar. Le menu proposé ( entrée, plat, dessert) et d'un bas de page.
-    * Une page Images
-    * Une page contact
+  Une page Accueil faite par Loris
+  Une page Restaurant faite par Laura
+  Une page Menu faite par Jeremy
+  Une page Images faite par Michael
+  Une page contact faite par Loris et Jeremy
 
   ### Les outils :
 
     * Bootstrap 
-    * CSS
     * HTML
+    * CSS
+
+
+### Lien Externe :
+
+Images provenant de https://unsplash.com/
+Font :  Google Font & https://www.1001fonts.com/
 
 ### Délais : 
 
