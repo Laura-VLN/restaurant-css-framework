@@ -59,10 +59,7 @@ li, a {
     cursor: pointer;
 }
 
-.Pictures{
-    border : solid 1px black;
-    margin: 3vh;
-}
+
 
 h2{
     text-align: center;
@@ -70,6 +67,10 @@ h2{
     color: #898162;
     margin-top : 50px;
     font-weight : 100;
+}
+
+.PicAlign{
+    text-align: center;
 }
 
 h3{
