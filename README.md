@@ -14,10 +14,11 @@
   Le projet est accessible via ce lien [GitHub page](https://laura-vln.github.io/restaurant-css-framework/)
 
 
-_Nous sommes un petit restaurant d'origine francaise actuellement installé à Londre et proposant des produits végans, frais, provenant de nos petits producteurs locaux. Veganisons est le carrefour culturel et économique du centre de Londres où se cotoit en toute simplicité, modernité, tradition, simplicité et végan_.
+_Nous sommes un petit restaurant d'origine francaise actuellement installé à Londre et proposant des produits végans, frais, provenant de nos petits producteurs locaux. Veganisons est le carrefour culturel et économique du centre de Londres où se cotoit en toute simplicité, modernité, tradition et végan_.
 
 
   ### Membres du groupe :
+
 - [**Laura Vilain**](https://github.com/Laura-VLN)
 - [**Jérémy Mertens**](https://github.com/JER89)
 - [**Loris Conti**](https://github.com/ShinYami)
