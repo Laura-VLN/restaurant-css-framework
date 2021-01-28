@@ -92,7 +92,7 @@ h1 {
 	margin:10px auto;
 	width: 400px;
 	padding: 20px 12px 10px 20px;
-	font: 14px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font: 14px "Open Sans", sans-serif;
   }
   .form-style td {
 	padding: 0;
@@ -110,13 +110,13 @@ h1 {
 	color:red;
   }
   .form-style input[type=submit], .form-style input[type=reset]{
-	background: #4eb5f1;
+	background:#898A62;
 	padding: 8px 15px 8px 15px;
 	border: none;
 	color: #fff;
   }
   .form-style input[type=submit]:hover, .form-style input[type=reset]:hover{
-	background: #4eb5f1;
+	background: #898A62;
 	box-shadow:none;
 	-moz-box-shadow:none;
 	-webkit-box-shadow:none;
