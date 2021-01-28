@@ -1,4 +1,4 @@
-console.log('it works')
+console.log('Does it work?')
 
 $(document).ready(function () {
     $('.submit').click(function (event) {
