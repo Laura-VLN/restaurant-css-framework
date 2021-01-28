@@ -3,18 +3,24 @@
 
 ![Aperçu du projet](assets/projet.png)
 
-   ## Site Web du restaurant
+   ## Site Web du restaurant :
 
    ### **[Veganisons](https://laura-vln.github.io/restaurant-css-framework/)**
-
-   ## Site Web du restaurant :
 
   Projet de groupe ayant pour but la création d'un site web pour un restaurant avec Bootstrap.
 
   Le projet est accessible via ce lien [GitHub page](https://laura-vln.github.io/restaurant-css-framework/)
 
 
-_Nous sommes un petit restaurant d'origine francaise actuellement installé à Londre et proposant des produits végans, frais, provenant de nos petits producteurs locaux. Veganisons est le carrefour culturel et économique du centre de Londres où se cotoit en toute simplicité, modernité, tradition et végan_.
+## Présentation du Projet :
+
+Projet dans le cadre de la formation Web Developer donnée par [BeCode](https://www.becode.org/)
+
+Le lien vers les instructions du projet est ci joint [instructions Projet](https://github.com/becodeorg/CRL-Woods-4.27/blob/main/LearningPath/01.The-Field/07.Bootstrap/restaurant.md).
+
+## Présentation de notre concept :
+
+_Nous sommes un petit restaurant d'origine francaise actuellement installé à Londres et proposant des produits végans, frais, provenant de nos petits producteurs locaux. Veganisons est le carrefour culturel et économique du centre de Londres où se cotoient en toute simplicité, modernité, tradition et végan_.
 
 
   ### Membres du groupe :
@@ -50,6 +56,6 @@ Font :  Google Font & https://www.1001fonts.com/
 
 ### Délais : 
 
-    * Début: le 25janvier 2021
+    * Début: le 25 janvier 2021
     * Fin : le 29 janvier 2021 
 
