@@ -37,6 +37,11 @@ section.top_page {
     font-family: "Yellow Ginger";
 }
 
+.badge.badge-default.badge-pill {
+    font-weight: bold;
+    font-size: 20px;
+}
+
 .navbar a {
     text-decoration: none;
     display: inline-block;
@@ -145,6 +150,9 @@ li #titre {
     text-transform: uppercase;
 }
 
+.menuContent {
+    margin-top: 20px;
+}
 
 /* ----------- Footer ------------*/
 
@@ -176,4 +184,9 @@ ol, ul {
 .titlefoot {
     color: white;
     font-family: 'Open Sans', sans-serif;
+    display: initial;
 }
+
+input {
+    font-family: 'Open Sans', sans-serif;
+}   
