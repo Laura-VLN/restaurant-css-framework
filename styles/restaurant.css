@@ -15,10 +15,8 @@ body {
 }
 
 section.top_page {
-    background-image: url("../assets/ivan-stern-resized.jpg");
-    background-size: cover; 
-    background-position: center center; 
-    height: 50vh;
+    background-position: center center;
+    height: 0vh; 
 }
 
 .vegan {
@@ -197,6 +195,13 @@ ol, ul {
 .segment-two ul li {
     border-bottom: 1px solid rgba(255,255,255,0.3);
     line-height: 30px;
+}
+
+section.top_page {
+    background-image: url("../assets/ivan-stern-resized.jpg");
+    background-size: cover; 
+    background-position: center center; 
+    height: 50vh;
 }
 
 #vegan {
